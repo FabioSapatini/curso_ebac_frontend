@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {  
+  font-family: "Rubik Bubbles", system-ui;
+    font-weight: normal;
+}
+
+body, input, textarea {
+  font-family: "Roboto", sans-serif;      
+}
+
+
+header {
+  padding: 16px 0;
+  background-color: rgb(139, 135, 135);
+  color: white;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav li {
+  display: inline-block;
+  margin: 0 16px;
+  font-size: 18px;
+}
+
+header nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .container,
+section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brands-list img {
+  height: 24px;
+}
+
+.brands-list li {
+  display: inline;
+  margin-right: 8px;
+}
+
+section .container {
+  align-items: flex-start;
+}
+
+section {
+  padding: 24px 0;
+}
+
+section h2 {
+  margin: 16px 0;
+  color: rgb(139, 135, 135);
+}
+
+section {
+  color: rgb(0, 0, 0);
+}
+
+section p {
+  margin-bottom: 8px;
+}
+
+.store-front {
+  margin-right: 32px;
+}
+
+.social-links img {
+  height: 24px;
+}
+
+.social-links li {
+  display: inline;
+  margin: 8px;
+}
+.social-links li a {
+  text-decoration: none;
+}
+
+#contact .container {
+  display: block;
+}
+
+.contact-methods {
+  display: flex;
+  justify-content: space-between; 
+}
+
+form input,
+form textarea,
+form button {
+  display: block;
+  width: 320px;
+  margin-bottom: 9px;
+  padding: 8px;
+}
+
+form textarea {
+  resize: none;
+  height: 180px;
+}
+
+section h3 {
+  margin-bottom: 18px ;
+}
+
+form button {
+  background-color: gray;
+  color: white;
+  border: nome;
+  cursor: pointer;
+}
+
+form button:hover {
+background-color: rgb(139, 137, 137);
+}
+
+input:focus, textarea:focus {
+  outline-color: gray;
+}
+
+footer {
+  background-color: gray;
+  color: white;
+  padding: 16px 0;
+}
